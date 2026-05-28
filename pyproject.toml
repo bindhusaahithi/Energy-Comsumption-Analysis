@@ -9,7 +9,9 @@ description = "Production-style energy analytics pipeline using S3, Glue, Athena
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+  "pandas>=2.2",
   "PyYAML>=6.0",
+  "streamlit>=1.45",
 ]
 
 [project.optional-dependencies]
@@ -25,4 +27,3 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-

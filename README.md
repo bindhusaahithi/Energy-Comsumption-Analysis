@@ -53,6 +53,7 @@ An industrial-style AWS data engineering case study for processing smart-meter e
 │       ├── config.py
 │       ├── quality.py
 │       └── transformations.py
+├── streamlit_app.py
 ├── tests
 │   └── test_transformations.py
 ├── visuals
@@ -96,6 +97,21 @@ python3 -m pip install -e ".[dev]"
 python3 scripts/run_local.py --config configs/dev.yaml
 python3 -m pytest
 ```
+
+## Streamlit Demo
+
+Run the interactive dashboard locally:
+
+```bash
+python3 -m pip install -e ".[dev]"
+streamlit run streamlit_app.py
+```
+
+The demo reads from:
+
+- `data/raw/energy_readings_sample.csv`
+- `data/processed/daily_consumption_summary.csv`
+- `visuals/architecture/aws-pipeline-diagram.svg`
 
 ## Customize before pushing
 
