@@ -14,6 +14,10 @@ An industrial-style AWS data engineering case study for processing smart-meter e
 ![Architecture diagram](./visuals/architecture/aws-pipeline-diagram.svg)
 ![Daily consumption chart](./visuals/dashboards/daily-consumption-chart.svg)
 
+## Live Demo
+
+[Open the Streamlit app](https://energy-comsumption-analysis-bindhu.streamlit.app)
+
 ## Structure
 
 ```text
