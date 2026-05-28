@@ -1,0 +1,9 @@
+environment: prod
+raw_data_path: s3://energy-analytics-prod-raw/smart-meter/
+processed_output_path: s3://energy-analytics-prod-curated/daily-summary/
+aws_region: us-east-1
+s3_raw_bucket: energy-analytics-prod-raw
+s3_curated_bucket: energy-analytics-prod-curated
+athena_database: energy_analytics_prod
+athena_table: curated_energy_readings
+

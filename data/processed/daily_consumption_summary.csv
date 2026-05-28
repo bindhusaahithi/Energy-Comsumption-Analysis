@@ -1,0 +1,7 @@
+usage_date,region,total_kwh,avg_kwh_per_reading,peak_kwh,peak_period
+2026-05-01,Midwest,29.84,7.46,9.55,Peak
+2026-05-01,Northeast,12.78,3.2,4.91,Peak
+2026-05-01,South,52.31,13.08,15.18,Peak
+2026-05-02,Midwest,29.02,7.25,9.12,Peak
+2026-05-02,Northeast,12.25,3.06,4.62,Peak
+2026-05-02,South,51.15,12.79,14.86,Peak

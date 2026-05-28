@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" rx="28" fill="#11161B"/>
+  <text x="56" y="72" fill="#F3F4F6" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    Hourly Consumption Heatmap
+  </text>
+  <text x="56" y="104" fill="#AAB4BE" font-family="Arial, sans-serif" font-size="18">
+    Higher intensity indicates heavier demand windows
+  </text>
+
+  <g transform="translate(140 150)">
+    <text x="-62" y="36" fill="#AAB4BE" font-family="Arial, sans-serif" font-size="16">Res</text>
+    <text x="-62" y="106" fill="#AAB4BE" font-family="Arial, sans-serif" font-size="16">Com</text>
+    <text x="-62" y="176" fill="#AAB4BE" font-family="Arial, sans-serif" font-size="16">Ind</text>
+
+    <text x="18" y="-18" fill="#AAB4BE" font-family="Arial, sans-serif" font-size="16">00</text>
+    <text x="126" y="-18" fill="#AAB4BE" font-family="Arial, sans-serif" font-size="16">06</text>
+    <text x="234" y="-18" fill="#AAB4BE" font-family="Arial, sans-serif" font-size="16">12</text>
+    <text x="342" y="-18" fill="#AAB4BE" font-family="Arial, sans-serif" font-size="16">18</text>
+
+    <rect x="0" y="0" width="88" height="52" rx="12" fill="#315D89"/>
+    <rect x="108" y="0" width="88" height="52" rx="12" fill="#66A6C8"/>
+    <rect x="216" y="0" width="88" height="52" rx="12" fill="#F4B942"/>
+    <rect x="324" y="0" width="88" height="52" rx="12" fill="#FF8B57"/>
+
+    <rect x="0" y="70" width="88" height="52" rx="12" fill="#66A6C8"/>
+    <rect x="108" y="70" width="88" height="52" rx="12" fill="#8BD3DD"/>
+    <rect x="216" y="70" width="88" height="52" rx="12" fill="#F4B942"/>
+    <rect x="324" y="70" width="88" height="52" rx="12" fill="#FF8B57"/>
+
+    <rect x="0" y="140" width="88" height="52" rx="12" fill="#8BD3DD"/>
+    <rect x="108" y="140" width="88" height="52" rx="12" fill="#94F0C1"/>
+    <rect x="216" y="140" width="88" height="52" rx="12" fill="#F99865"/>
+    <rect x="324" y="140" width="88" height="52" rx="12" fill="#F47C48"/>
+  </g>
+
+  <rect x="664" y="186" width="24" height="24" rx="12" fill="#315D89"/>
+  <text x="700" y="204" fill="#F3F4F6" font-family="Arial, sans-serif" font-size="16">Low demand</text>
+  <rect x="664" y="236" width="24" height="24" rx="12" fill="#8BD3DD"/>
+  <text x="700" y="254" fill="#F3F4F6" font-family="Arial, sans-serif" font-size="16">Moderate</text>
+  <rect x="664" y="286" width="24" height="24" rx="12" fill="#F4B942"/>
+  <text x="700" y="304" fill="#F3F4F6" font-family="Arial, sans-serif" font-size="16">High</text>
+  <rect x="664" y="336" width="24" height="24" rx="12" fill="#FF8B57"/>
+  <text x="700" y="354" fill="#F3F4F6" font-family="Arial, sans-serif" font-size="16">Peak</text>
+</svg>

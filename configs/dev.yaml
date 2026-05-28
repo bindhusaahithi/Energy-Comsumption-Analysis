@@ -1,0 +1,9 @@
+environment: dev
+raw_data_path: data/raw/energy_readings_sample.csv
+processed_output_path: data/processed/daily_consumption_summary.csv
+aws_region: us-east-1
+s3_raw_bucket: energy-analytics-dev-raw
+s3_curated_bucket: energy-analytics-dev-curated
+athena_database: energy_analytics_dev
+athena_table: curated_energy_readings
+
