@@ -26,7 +26,23 @@ package-dir = {"" = "src"}
 where = ["src"]
 
 [tool.poetry]
-package-mode = false
+name = "energy-consumption-analysis"
+version = "0.1.0"
+description = "Production-style energy analytics pipeline using S3, Glue, Athena, and Parquet."
+readme = "README.md"
+packages = [
+  { include = "energy_analytics", from = "src" },
+  { include = "energy_consumption_analysis", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pandas = ">=2.2"
+PyYAML = ">=6.0"
+streamlit = ">=1.45"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
